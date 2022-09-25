@@ -10,13 +10,13 @@ import editarIcono from '../src/img/bx-edit-alt.svg'
 import eliminarIcono from '../src/img/bx-trash.svg'
 
 const gastoDiccionario = {
-  saveMoney : iconoAhorro,
-  food: iconoComida,
-  home: iconoCasa,
-  leisure: iconoOcio,
-  health: iconoSalud,
-  expenses: iconoGastosVarios,
-  suscriptions: iconoSuscripcion,
+  Saving : iconoAhorro,
+  Food: iconoComida,
+  Home: iconoCasa,
+  Leisure: iconoOcio,
+  Health: iconoSalud,
+  "Miscellaneous expenses": iconoGastosVarios,
+  Suscriptions: iconoSuscripcion,
 }
 
 const Gasto = ({gasto, deleteExpense, setGasto}) => {

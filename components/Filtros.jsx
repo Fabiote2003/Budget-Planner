@@ -14,14 +14,14 @@ const Filtros = ({filtro, setFiltro}) => {
           value={filtro}
           onChange={e => setFiltro(e.target.value)}
           >
-              <option value="">-- All Categories --</option>
-              <option value="ahorro">-- Saving Money --</option>
-              <option value="comida">-- Food --</option>
-              <option value="casa">-- Home --</option>
-              <option value="ocio">-- Leisure --</option>
-              <option value="salud">-- Health --</option>
-              <option value="gastos">-- Miscellaneous expenses --</option>
-              <option value="suscripciones">-- Suscriptions --</option>
+               <option value="">-- All Categories --</option>
+              <option value="Saving">-- Saving --</option>
+              <option value="Food">-- Food --</option>
+              <option value="Home">-- Home --</option>
+              <option value="Leisure">-- Leisure --</option>
+              <option value="Health">-- Health --</option>
+              <option value="Miscellaneous expenses">-- Miscellaneous expenses --</option>
+              <option value="Suscriptions">-- Suscriptions --</option>
           </select>
         </div>
       </form>

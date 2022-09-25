@@ -12,7 +12,7 @@ const ListadoGastos = ({listaGastos, deleteExpense, setGasto, filtro, gastosFilt
         {
         filtro ? (
           <>
-            {gastosFiltrados.length > 0 ? <h1 className='expenses-container-title'>Lista de Gastos</h1> : <h1 className='expenses-container-title'>No hay gastos</h1>}
+            {gastosFiltrados.length > 0 ? <h1 className='expenses-container-title'>Expenses List</h1> : <h1 className='expenses-container-title'>There are no expenses</h1>}
             {
             gastosFiltrados.map((gasto) => 
             <Gasto gasto={gasto} key={gasto.id} deleteExpense={deleteExpense} setGasto={setGasto}/>
@@ -21,7 +21,7 @@ const ListadoGastos = ({listaGastos, deleteExpense, setGasto, filtro, gastosFilt
         ) 
        : (
         <>
-            {listaGastos.length > 0 ? <h1 className='expenses-container-title'>Lista de Gastos</h1> : <h1 className='expenses-container-title'>No hay gastos</h1>}
+            {listaGastos.length > 0 ? <h1 className='expenses-container-title'>Expenses List</h1> : <h1 className='expenses-container-title'>Add Expenses</h1>}
             {gastosHTML}
          </>
         ) 

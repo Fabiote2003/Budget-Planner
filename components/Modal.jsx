@@ -113,13 +113,13 @@ const formatearFecha = fecha => {
             onChange={(e) => setCategory(e.target.value)}
             value={category}>
               <option value="">-- Select --</option>
-              <option value="saveMoney">-- Saving Money --</option>
-              <option value="food">-- Food --</option>
-              <option value="home">-- Home --</option>
-              <option value="leisure">-- Leisure --</option>
-              <option value="health">-- Health --</option>
-              <option value="expenses">-- Miscellaneous expenses --</option>
-              <option value="suscriptions">-- Suscriptions --</option>
+              <option value="Saving">-- Saving --</option>
+              <option value="Food">-- Food --</option>
+              <option value="Home">-- Home --</option>
+              <option value="Leisure">-- Leisure --</option>
+              <option value="Health">-- Health --</option>
+              <option value="Miscellaneous expenses">-- Miscellaneous expenses --</option>
+              <option value="Suscriptions">-- Suscriptions --</option>
             </select>
             </div> 
             

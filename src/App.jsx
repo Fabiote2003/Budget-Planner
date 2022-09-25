@@ -23,6 +23,7 @@ function App() {
   useEffect(() => {
     if(filtro) {
       //Filtrar Gastos por categoria
+      console.log(filtro)
       const gastosFiltrado = listaGastos.filter(gasto => gasto.category === filtro);
       setGastosFiltrados(gastosFiltrado);
     }

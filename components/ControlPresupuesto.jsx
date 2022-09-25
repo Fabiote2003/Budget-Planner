@@ -47,7 +47,6 @@ const ControlPresupuesto = ({presupuesto, listaGastos, setListaGastos, setPresup
       confirmButtonText: "YES",
       confirmButtonColor: "green",
       width:"400px",
-      height: "400px"
     }).then(response => {
       if(response.isConfirmed) {
         setListaGastos([]);
